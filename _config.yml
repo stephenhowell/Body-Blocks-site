@@ -1,0 +1,36 @@
+# Site settings
+title: Body Blocks
+description: >-
+  Body Blocks: An evolution of Kinect2Scratch bringing embodied interaction 
+  to Scratch programming through pose detection
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://bodyblocks.app" # the base hostname & protocol
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Custom variables
+author: Stephen Howell
+institution: University College Dublin
+github_username: stephenhowell
+
+# Navigation
+header_pages:
+  - index.md
+  - research.md
+  - tutorials.md
+  - acknowledgements.md
+  - developers.md
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
