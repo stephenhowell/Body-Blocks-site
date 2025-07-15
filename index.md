@@ -3,21 +3,21 @@ layout: default
 title: Body Blocks for Scratch 3.0
 ---
 
-Body Blocks brings embodied interaction to Scratch programming through real-time pose detection with an Android phone or Kinect v2.  
-Body Blocks works best with a laptop (Windows, Mac, or Linux) and an Android Phone.  
+<div class="step" markdown="1">
+Body Blocks brings embodied interaction to Scratch programming through real-time pose detection with an Android phone (or a Kinect v2 sensor).  
+Body Blocks works best with a laptop (Windows or Mac) and an Android Phone.  
 
 Once you have installed and set up both the phone app and the desktop app, posing in front of your phone will send the positions of your head, hands etc. into Scratch. 
 
 Move your body to control games and interactive projects!
-
-
+</div>
 
 # Set Up
 
 ## Download Body Blocks
 
-<div class="warning" markdown="1">
-**⚠️ Important:** You need **both** apps - Body Blocks for your laptop, and Body Blocks for your phone/tablet.
+<div class="info" markdown="1">
+    You need **both** apps - Body Blocks for your laptop, *and* Body Blocks for your Android phone/tablet.
 </div>
 
 Choose your laptop platform below to download the latest version:
@@ -34,7 +34,7 @@ Choose your phone platform below to download the latest version:
 </div>
 
 <div class="warning" markdown="1">
-**⚠️ Important:** Body Blocks apps are currently **unsigned**. You will see security warnings when first running the software. See platform-specific instructions below for how to proceed safely.
+**⚠️ Important:** Body Blocks apps are currently **unsigned**. This means you will see security warnings when first running the software. See platform-specific instructions below for how to proceed safely.
 </div>
 
 ## Installation Instructions
@@ -88,7 +88,7 @@ Choose your phone platform below to download the latest version:
 
 </div>
 
-<div class="warning" markdown="1">
+<div class="success" markdown="1">
 **🔐 Note:** Body Blocks phone app sends data to the local (same wifi) Body Blocks laptop app only. It does not record video or images or send any telemetry to the cloud or anywhere else. The camera feed is processed on your phone using a machine learning (ML) model and 33 *landmarks* or body positions are sent as a list of numbers representing the x and y axes positions. This appears as a stream of numbers and contains no identifying information or images. 
 </div>
 
@@ -130,7 +130,7 @@ Choose your phone platform below to download the latest version:
 </div>
 
 <div class="success" markdown="1">
-✨ You're now ready to create interactive projects with Body Blocks!
+✨ You're now ready to create interactive projects with Body Blocks! Have fun learning! ✨
 </div>
 
 ## Troubleshooting
