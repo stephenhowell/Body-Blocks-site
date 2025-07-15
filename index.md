@@ -3,9 +3,9 @@ layout: default
 title: Body Blocks for Scratch 3.0
 ---
 
-# Getting Started with Body Blocks
+# Set Up
 
-Body Blocks brings embodied interaction to Scratch programming through real-time pose detection. Move your body to control games and interactive projects!
+Body Blocks brings embodied interaction to Scratch programming through real-time pose detection with an Android phone or Kinect v2. Move your body to control games and interactive projects!
 
 ## Download Body Blocks
 
@@ -17,17 +17,17 @@ Choose your platform below to download the latest version:
     </a>
     <a href="https://github.com/stephenhowell/body-blocks/releases/latest" class="download-button">
         💻 macOS - Intel and Applie Silicon builds available
-    </a>
-    <a href="#ios-interest" class="download-button" style="opacity: 0.6; cursor: not-allowed;">
-        📱 iOS - Not currently available, let me know if you're interested!
-    </a>
+    </a>    
     <a href="https://github.com/stephenhowell/body-blocks/releases/latest" class="download-button">
         📱 Android APK
+    </a>
+    <a href="#ios-interest" class="download-button" style="opacity: 0.6; cursor: not-allowed;">
+        📱 iOS - Sorry, not currently available (I don't have a Mac or an iPhone), but let me know if you're interested!
     </a>
 </div>
 
 <div class="warning" markdown="1">
-**⚠️ Important:** Body Blocks apps are currently unsigned. You will see security warnings when first running the software. See platform-specific instructions below for how to proceed safely.
+**⚠️ Important:** Body Blocks apps are currently **unsigned**. You will see security warnings when first running the software. See platform-specific instructions below for how to proceed safely.
 </div>
 
 ## Installation Instructions
@@ -81,6 +81,10 @@ Choose your platform below to download the latest version:
 
 </div>
 
+<div class="warning" markdown="1">
+**🔐 Note:** Body Blocks phone app sends data to the local (same wifi) Body Blocks laptop app only. It does not record video or images or send any telemetry to the cloud or anywhere else. The camera feed is processed on your phone using a machine learning (ML) model and 33 *landmarks* or body positions are sent as a list of numbers representing the x and y axes positions. This appears as a stream of numbers and contains no identifying information or images. 
+</div>
+
 ## Running Body Blocks
 
 <div class="step" markdown="1">
@@ -90,8 +94,8 @@ Choose your platform below to download the latest version:
 1.  Launch Body Blocks from your Applications/Start Menu.
 2.  Body Blocks will display your computer's IP address (e.g., `192.168.1.100`).
 3.  Note this IP address - you'll need it for the mobile app.
-4.  In Body Blocks (computer), click "Start Posing".
-5.  A sample Scratch project will load automatically.
+4.  In Body Blocks (computer), click "Start Posing with Scratch!".
+5.  A sample Scratch project will load automatically with the Body Blocks extension enabled.
 6.  Click the green flag to run the project.
 
 </div>
@@ -101,7 +105,7 @@ Choose your platform below to download the latest version:
 ### Step 2: Connect Your Phone
 
 1.  Open the Body Blocks app on your phone.
-2.  Enter the IP address that was shown on your computer (first time only - the app remembers it).
+2.  Enter the IP address that was shown on your computer (you only have to do this the first time - the app remembers it after that).
 3.  Tap "Connect".
 4.  The connection indicator should turn <span style="color: #03884a; font-weight: bold;">green</span> when connected.
 
@@ -112,8 +116,9 @@ Choose your platform below to download the latest version:
 ### Step 3: Start Posing!
 
 1.  Stand in front of your (front) phone camera and start moving!
-2.  The phone will show an outline on your body when a person is detected.
-3.  While the app is connected, Body Blocks (in the block palette) will report the x, y position of body points on the Scratch stage.
+2.  I recommend you place the phone in a holder on a small tripod, so you can position it easily.
+3.  The phone will show an outline on your body when a person is detected.
+4.  While the app is connected, Body Blocks (in the block palette) will report the x, y position of body points on the Scratch stage.
 
 </div>
 
@@ -123,32 +128,36 @@ Choose your platform below to download the latest version:
 
 ## Troubleshooting
 
-### Connection Issues
+<div class="step" markdown="1">
+    
+### Connection Issues?
 - Ensure both devices are on the same WiFi network.
 - If the phone cannot join the same network, consider using a hotspot from the phone.
 - Check that port 8183 is not blocked by your firewall.
 
-### Camera Not Working
+### Camera Not Working?
 - Ensure you've granted camera permissions to the mobile app.
 - Check that no other app is using the camera.
 - Try restarting the mobile app.
 
 ### Performance Issues
 - Ensure good lighting for optimal pose detection.
-- Stay 1-3 meters from the camera.
-- Close other applications to free up resources.
+- Stay 1-3 meters from the camera or as far as you need for it to see all of you.
+- Close other applications to on phone free up resources.
 - Older phones and phones without GPUs may struggle, sorry.
+
+</div>
 
 ## Next Steps
 
 - Explore the [sample tutorials]({{ '/tutorials' | relative_url }}) to see what's possible.
 - Learn how to [cite Body Blocks]({{ '/research' | relative_url }}) in your research.
-- Join our community of educators and creators!
+- Send me feedback, or any questions to <a href="mailto:stephenhowell@outlook.ie">stephenhowell@outlook.ie</a>.
 
 ## Platform Availability
 
 <div id="ios-interest" class="info" markdown="1">
-**🍎 iOS Developers:** If you're interested in Body Blocks but you only have access to an iPhone or iPad, please <a href="mailto:stephenhowell@outlook.ie?subject=Body%20Blocks%20for%20iOS">get in touch</a>!
+**🍎 iOS Users:** If you're interested in Body Blocks but you only have access to an iPhone or iPad, please <a href="mailto:stephenhowell@outlook.ie?subject=Body%20Blocks%20for%20iOS">get in touch</a>!
 </div>
 
 ---
