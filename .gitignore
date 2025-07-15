@@ -6,9 +6,21 @@ _site/
 .sass-cache/
 .jekyll-cache/
 .jekyll-metadata
+.bundle/
 
 # Additional Ruby/bundler ignore for when you run: bundle install
 /vendor
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
 
 # Specific ignore for GitHub Pages
 # GitHub Pages will always use its own deployed version of pages-gem 
