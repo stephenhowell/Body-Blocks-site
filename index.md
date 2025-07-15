@@ -14,23 +14,27 @@ Move your body to control games and interactive projects!
 
 # Set Up
 
-
 ## Download Body Blocks
 
-Choose your platform below to download the latest version:
+<div class="warning" markdown="1">
+**⚠️ Important:** You need **both** apps - Body Blocks for your laptop, and Body Blocks for your phone/tablet.
+</div>
+
+Choose your laptop platform below to download the latest version:
 
 <div style="display: flex; flex-wrap: wrap; gap: 1rem; margin: 2rem 0;">
     <a href="https://github.com/stephenhowell/body-blocks/releases/latest" class="download-button">
         🪟 Windows
     </a>
     <a href="https://github.com/stephenhowell/body-blocks/releases/latest" class="download-button">
-        💻 macOS - Intel and Applie Silicon builds available
-    </a>    
+        💻 Mac
+    </a> <br/>   
+    Choose your phone platform below to download the latest version:<br/>
     <a href="https://github.com/stephenhowell/body-blocks/releases/latest" class="download-button">
         📱 Android APK
-    </a>
+    </a> <br/>
     <a href="#ios-interest" class="download-button" style="opacity: 0.6; cursor: not-allowed;">
-        📱 iOS - Sorry, not currently available (I don't have a Mac or an iPhone), but let me know if you're interested!
+        📱 iOS - Sorry, not currently available
     </a>
 </div>
 
