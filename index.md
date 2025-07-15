@@ -21,21 +21,16 @@ Move your body to control games and interactive projects!
 </div>
 
 Choose your laptop platform below to download the latest version:
-
 <div style="display: flex; flex-wrap: wrap; gap: 1rem; margin: 2rem 0;">
-    <a href="https://github.com/stephenhowell/body-blocks/releases/latest" class="download-button">
-        🪟 Windows
-    </a>
-    <a href="https://github.com/stephenhowell/body-blocks/releases/latest" class="download-button">
-        💻 Mac
-    </a> <br/>   
-    Choose your phone platform below to download the latest version:<br/>
-    <a href="https://github.com/stephenhowell/body-blocks/releases/latest" class="download-button">
-        📱 Android APK
-    </a> <br/>
-    <a href="#ios-interest" class="download-button" style="opacity: 0.6; cursor: not-allowed;">
-        📱 iOS - Sorry, not currently available
-    </a>
+    <a href="https://github.com/stephenhowell/body-blocks/releases/latest" class="download-button">🪟 Windows</a>
+    <a href="https://github.com/stephenhowell/body-blocks/releases/latest" class="download-button">🍎 Mac</a>
+</div>
+
+Choose your phone platform below to download the latest version:
+
+<div style="display: flex; flex-wrap: wrap; gap: 1rem; margin: 2rem 0;">        
+    <a href="https://github.com/stephenhowell/body-blocks/releases/latest" class="download-button">📱 Android APK</a>
+    <a href="#ios-interest" class="download-button" style="opacity: 0.6; cursor: not-allowed;">📱 iOS - Sorry, not currently available</a>
 </div>
 
 <div class="warning" markdown="1">
