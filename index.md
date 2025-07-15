@@ -17,7 +17,7 @@ Move your body to control games and interactive projects!
 ## Download Body Blocks
 
 <div class="info" markdown="1">
-You need **both** apps - Body Blocks for your laptop, *and* Body Blocks for your Android phone/tablet.
+**❗Note**: You need **both** apps - Body Blocks for your laptop, *and* Body Blocks for your Android phone/tablet.
 </div>
 
 Choose your laptop platform below to download the latest version:
