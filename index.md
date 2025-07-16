@@ -7,12 +7,12 @@ title: Body Blocks for Scratch 3.0
 Body Blocks brings embodied interaction to Scratch programming through real-time pose detection with an Android phone (or a Kinect v2 sensor).  
 Body Blocks works best with a laptop (Windows or Mac) and an Android Phone.  
 
-Once you have installed and set up both the phone app and the desktop app, posing in front of your phone will send the positions of your head, hands etc. into Scratch. 
+Once you have installed and set up both the phone app and the desktop app, posing in front of your phone will send the positions of your head, hands etc. into Scratch.  
 
-Move your body to control games and interactive projects!
+This means you can move your body to control games and interactive projects!
+
+Body Blocks (and its predecessor Kinect2Scratch) have been developed since 2011 by [Stephen Howell](https://showell.cloud).
 </div>
-
-# Set Up
 
 ## Download Body Blocks
 
@@ -34,10 +34,10 @@ Choose your phone platform below to download the latest version:
 </div>
 
 <div class="warning" markdown="1">
-**⚠️ Important:** Body Blocks apps are currently **unsigned**. This means you will see security warnings when first running the software. See platform-specific instructions below for how to proceed safely.
+**⚠️ Important:** Body Blocks apps are free educational software and research outputs. As they are not commercial apps, they are currently **unsigned** and distributed on GitHub (rather than the App Store, Play Store, or Microsoft Store). This means you may see security warnings when first running the software. See platform-specific instructions below for how to proceed safely.
 </div>
 
-## Installation Instructions
+## Installation
 
 <div class="step" markdown="1">
 

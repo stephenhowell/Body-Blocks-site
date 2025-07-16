@@ -1,8 +1,7 @@
 # Site settings
 title: Body Blocks
 description: >-
-  Body Blocks: An evolution of Kinect2Scratch bringing embodied interaction 
-  to Scratch programming through pose detection
+  An evolution of Kinect2Scratch for pose detection in Scratch
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://bodyblocks.app" # the base hostname & protocol
 
